@@ -1,0 +1,5 @@
+ler depois 
+
+https://codigosfontes-ccplus-plus.blogspot.com/2014/09/fseek-posicionando-um-ponteiro-para.html
+
+http://www.cmaismais.com.br/referencia/cstdio/fseek/
