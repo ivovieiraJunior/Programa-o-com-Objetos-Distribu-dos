@@ -180,7 +180,7 @@ int main() {
 						Mensagens_Do_pnt_bind(pnt_bind);
 						// o par do sendto
 						
-						if((recvfrom(sd, mensagem, strlen(mensagem), 0, (struct sockaddr *) &cliAddr, &tam_msg)) <0) {
+						if((recvfrom(sd, mensagem, 1024, 0, (struct sockaddr *)&cliAddr, &tam_msg)) < 0) {
       						printf("\n num_bytes:: Nao foi possivel receber dados \n");	
 							continue;				
 						}else{
